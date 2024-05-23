@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib  as plt
 import helper  
-pip install matplotlib
+
 
 
 def remove_notification(user_list):
@@ -74,6 +74,7 @@ if uploaded_file_id is not None:
 
         st.title('Analysis Results:')
         st.write(f"Total Messages: {num_messages}")
+        
    
 
     if 'df' in locals():  
