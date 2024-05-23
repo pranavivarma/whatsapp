@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import helper  
+pip install matplotlib
 
 
 def remove_notification(user_list):
